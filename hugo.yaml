@@ -1,0 +1,116 @@
+languageCode: "en-us"
+title: "Fai"
+theme: "hugo-profile"
+
+params:
+  title: "Fai"
+  description: "Personal Website for Ka Fai Lam"
+  favicon: "/favicon.png"
+
+  theme:
+    disableThemeToggle: true
+    defaultTheme: "light"
+
+  navbar:
+    disableSearch: true
+    showBrandLogo: false
+
+  hero:
+    enable: true
+    intro: "Hi, I am"
+    title: "Fai"
+    subtitle: "Specialize in creating web-based solutions"
+    content: "I am a dedicated web application developer who harnesses contemporary web technologies to craft websites that boast exceptional aesthetics, provide seamless user experiences, and operate flawlessly."
+    bottomImage:
+      enable: true
+    image: /images/fai.jpg
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/kafai-lam
+        - icon: fab fa-x-twitter
+          url: https://twitter.com/Fai67640839
+        - icon: fab fa-linkedin-in
+          url: https://www.linkedin.com/in/kafailam
+
+  about:
+    enable: true
+    title: "About Me"
+    content: |
+      Passionate full stack developer embracing new technologies to drive innovation.
+      Possesses in-depth domain knowledge of the retail industry and enterprise resource planning software.
+
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "React"
+        - "Angular"
+        - "Nestjs"
+        - "Kubernetes"
+        - "Odoo"
+        - "FastAPI"
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - job: "Software Engineer"
+        company: "Hypebeast"
+        companyUrl: "https://hbx.com"
+        date: "Jan 2023 - Feb 2024"
+        content: |
+          - Developed a comprehensive inventory management and fulfillment system for global e-commerce operations
+          - Engineered API integrations across various platforms such as Shopify, Sylius, and Odoo to streamline and unify order management across multiple sales channels
+
+      - job: "Software Engineer"
+        company: "Capsuite"
+        companyUrl: "https://capsuite.co"
+        date: "Jan 2022 - Jan 2023"
+        content: |
+          - Spearheaded the development of an ERP-related SaaS product
+          - Orchestrated the application deployment workflow utilizing Azure Kubernetes
+          - Designed a CI/CD pipeline tailored specifically for the SaaS application
+
+      - job: "Full Stack Developer"
+        company: "Betalabs"
+        companyUrl: "https://www.betalabs.ai"
+        date: "Apr 2021 - Jan 2022"
+        content: |
+          - Engineered a customer data platform aimed at enhancing customer retention rates, subsequently deploying it onto Azure Kubernetes
+          - Administered Azure Cloud Services including CosmoDB, AKS, Container Registry, and Databricks
+          - Facilitated data preparation from the data warehouse through the implementation of ETL pipelines tailored for data scientists and analysts
+
+      - job: "Assistant Software Engineer"
+        company: "ATAL"
+        companyUrl: "https://www.atal.com"
+        date: "Aug 2020 - Apr 2021"
+        content: |
+          - Developed on-premise containerized backend microservices tailored for an energy optimization application serving multiple building services
+          - Spearheaded testing initiatives and orchestrated CI/CD pipelines for existing microservices
+          - Deployed application onto multi-node Kubernetes clusters with Helm both on-premises and in cloud environments
+
+  # Education
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Bachelor of Science in Mathematics and information Engineering"
+        school:
+          name: "The University Of Hong Kong(CUHK), Hong Kong"
+          url: "https://www.cuhk.edu.hk/english/index.html"
+        date: "2016 - 2020"
+        GPA: "3.43 out of 4.0"
+
+  #Contact
+  contact:
+    enable: true
+    content: Don't hesitate to contact me anytime. Whether you have questions or just want to say hello, I'm here and will make sure to reply promptly!
+    email: lamkafai1997@gmail.com
+    btnName: Mail me
+
+  footer:
+    socialNetworks:
+      github: https://github.com/kafai-lam
+      linkedin: https://www.linkedin.com/in/kafailam/
+      twitter: https://twitter.com/Fai67640839
